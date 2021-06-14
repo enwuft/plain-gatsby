@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Gatsby!"
-date: 2017-04-06 13:32:20 +0300
-description: Go ahead and edit this file and re-build the site to see your changes. # Add post description (optional)
+date: 2020-04-06 13:32:20 +0300
+description: Go ahead and edit this file and re-build the site to see your changes.
 ---
 
 This post includes an image!

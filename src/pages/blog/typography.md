@@ -1,6 +1,7 @@
 ---
 title: Typography Elements
-date: 2016-10-18
+date: 2020-10-18
+description: Go ahead and edit this file and re-build the site to see your changes.
 ---
 
 **NOTE:** This markdown cheatsheet is a typography demo for this theme. Check out this post to learn more about this markdown usage when you want to get started with this theme. Enjoy!

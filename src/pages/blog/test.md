@@ -1,6 +1,7 @@
 ---
 title: Lorem Ipsum
 date: 2021-05-06
+description: Go ahead and edit this file and re-build the site to see your changes.
 ---
 
 ## The standard Lorem Ipsum passage, used since the 1500s
