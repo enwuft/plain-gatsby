@@ -16,14 +16,14 @@ import { GatsbyImage } from "gatsby-plugin-image";
 const Image = () => (
   <StaticQuery
     query={graphql`{
-  placeholderImage: file(relativePath: {eq: "gatsby-astronaut.png"}) {
-    childImageSharp {
-      gatsbyImageData(width: 600, layout: CONSTRAINED)
+      placeholderImage: file(relativePath: {eq: "gatsby-astronaut.png"}) {
+        childImageSharp {
+          gatsbyImageData(width: 900, layout: CONSTRAINED)
+        }
+      }
     }
-  }
-}
-`}
-    render={data => <GatsbyImage image={data.placeholderImage.childImageSharp.gatsbyImageData} />}
+  `}
+    render={data => <GatsbyImage img={data.placeholderImage.childImageSharp.gatsbyImageData} />}
   />
 )
 export default Image

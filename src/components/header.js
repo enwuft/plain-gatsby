@@ -7,7 +7,7 @@ const Header = () => (
   <header>
     <div>
       <Link to="/">
-        <h1 className="text-3xl text-gray-600 uppercase font-medium">
+        <h1 className="text-3xl text-gray-800 uppercase font-medium">
           {config.siteMetadata.author}
         </h1>
       </Link>

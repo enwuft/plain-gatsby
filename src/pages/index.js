@@ -14,18 +14,26 @@ const IndexPage = ({ data }) => {
   )
   const postsList = (posts) =>
     posts.map((post) => (
-      <div className="flex flex-row justify-between space-y-2" key={post.node.id}>
-        <div className="text-base hover:text-red-300">
-          <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
+      <div
+        className="flex flex-row justify-between space-y-3"
+        key={post.node.id}
+      >
+        <h4 className="text-lg text-gray-700">
+          <Link className="hover:text-red-400 delay-100 font-medium uppercase" to={post.node.fields.slug}>
+            {post.node.frontmatter.title}
+          </Link>
+          {/* <p>TOPICS: </p> */}
+        </h4>
+        <div className="content-center justify-between">
+          {post.node.frontmatter.date}
         </div>
-        <div className="content-center justify-between">{post.node.frontmatter.date}</div>
       </div>
     ))
 
   const postsListContainer = groupBy(posts, getDateYear)
     .map(({ year, posts }, i) => (
-      <div className="pt-8 text-gray-600" key={i}>
-        <h4 className="text-xl">{year}</h4>
+      <div className="pt-8 text-gray-900" key={i}>
+        <h4 className="font-medium text-lg pb-2">{year}</h4>
         {postsList(posts)}
       </div>
     ))
@@ -33,7 +41,7 @@ const IndexPage = ({ data }) => {
   return (
     <DefaultLayout>
       <SEO title="Home" />
-      <div className="container mx-auto">
+      <div className="container mx-auto pt-5">
         <div>{postsListContainer}</div>
       </div>
     </DefaultLayout>

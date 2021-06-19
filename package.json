@@ -1,9 +1,9 @@
 {
-  "name": "the-plain-gatsby-starter",
+  "name": "plain-gatsby",
   "private": true,
-  "description": "A simple minimalist starter for your personal blog",
-  "version": "0.2.0",
-  "author": "Kinyanjui Wangonya <kwangonya@gmail.com>",
+  "description": "A personal blog",
+  "version": "0.3",
+  "author": "ENWUFT <enwuft@gmail.com>",
   "dependencies": {
     "gatsby": "^3.1.0",
     "gatsby-plugin-feed": "^3.1.0",
@@ -47,12 +47,5 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wangonya/the-plain-gatsby"
-  },
-  "bugs": {
-    "url": "https://github.com/wangonya/the-plain-gatsby/issues"
   }
 }
