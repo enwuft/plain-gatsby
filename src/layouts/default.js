@@ -13,7 +13,7 @@ import Header from ".././components/header"
 import Footer from ".././components/footer"
 import "../styles/styles.scss"
 import "../styles/global.css"
-import "../styles/normalize.css"
+// import "../styles/normalize.css"
 
 const DefaultLayout = ({ children }) => (
   <StaticQuery

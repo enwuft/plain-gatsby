@@ -10,12 +10,12 @@ const Header = () => (
         {config.siteMetadata.author}
       </div>
     </Link>
-    <small className="text-lg text-gray-800 font-thin">
+    <small className="text-sm lg:text-2xl text-gray-800 font-thin">
       อีหยังว่ะ
     </small>
     <nav>
       <Link to="/about">
-        <span className="text-lg text-gray-800 font-medium">About</span>
+        <span className="text-sm lg:text-2xl text-gray-800 font-medium">About</span>
       </Link>
     </nav>
   </header>

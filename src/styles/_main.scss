@@ -1,19 +1,33 @@
 body {
-  padding-left: calc((100vw - 940px) / 2);
-  padding-right: calc((100vw - 940px) / 2);
+  padding-left: calc((100vw - 1190px) / 2);
+  padding-right: calc((100vw - 1190px) / 2);
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @media (min-width: 768px) {
+
+  // https://stackoverflow.com/questions/13550541/media-min-width-max-width
+  @media only screen and (min-width: 960px) {
     padding: 12px;
   }
-  @media (min-width: 640px) {
-    padding: 10px;
-    margin: 0;
+  @media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
   }
-  @media (min-width: 340px) {
-    padding: 9px;
-    margin: 0;
+  @media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+  }
+  @media only screen and (max-device-width: 480px) {
+    padding: 12px;
+  }
+  @media only screen and (device-width: 768px) {
+    /* default iPad screens */
+  }
+  /* different techniques for iPad screening */
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+    padding: 12px;
+  }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+    padding: 12px;
   }
 }
 
