@@ -17,14 +17,15 @@ module.exports = {
               classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
-              showLineNumbers: false,
-              noInlineHighlight: false,
+              showLineNumbers: true,
+              noInlineHighlight: true,
             },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 970,
+              maxWidth: 950,
+              loading: "lazy",
             },
           },
         ],
