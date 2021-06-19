@@ -6,9 +6,9 @@ import config from "../../gatsby-config"
 const Header = () => (
   <header className="mt-6 flex flex-row justify-between items-center uppercase">
     <Link to="/">
-      <h1 className="text-2xl text-gray-800 font-medium">
+      <div className="text-sm lg:text-2xl text-gray-800 font-medium">
         {config.siteMetadata.author}
-      </h1>
+      </div>
     </Link>
     <small className="text-lg text-gray-800 font-thin">
       อีหยังว่ะ

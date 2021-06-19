@@ -11,19 +11,20 @@ const PostTemplate = ({ data, pageContext }) => {
   return (
     <DefaultLayout>
       <SEO title={frontmatter.title} />
-      <article className="container mx-auto max-w-screen-lg">
-        <div className="flex justify-between pt-10">
-          <h1 className="uppercase text-gray-600 font-medium text-3xl">
-            {frontmatter.title}
-          </h1>
-          <span className="justify-between content-end">
-            <small className="bg-gray-100 border-white p-2">
-              {frontmatter.date}
-            </small>
-          </span>
+      <article className="container mx-auto">
+        <div className="content-center">
+          <div className="flex items-center justify-between">
+            <h1 className="uppercase text-gray-600 font-medium text-3xl">
+              {frontmatter.title}
+            </h1>
+            <span className="bg-gray-100 p-2 text-gray-600">{frontmatter.date}</span>
+          </div>
         </div>
-        <div className="divider" />
-        <div className="text-2xl text-gray-700 space-y-4" dangerouslySetInnerHTML={{ __html: html }} />
+
+        <div
+          className="text-lg text-gray-700 space-y-4"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       </article>
       <div className="page-navigation code">
         {prev && (

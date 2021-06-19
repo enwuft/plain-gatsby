@@ -13,7 +13,7 @@ import Header from ".././components/header"
 import Footer from ".././components/footer"
 import "../styles/styles.scss"
 import "../styles/global.css"
-import "../styles/sanitize.css"
+import "../styles/normalize.css"
 
 const DefaultLayout = ({ children }) => (
   <StaticQuery
@@ -22,17 +22,16 @@ const DefaultLayout = ({ children }) => (
         site {
           siteMetadata {
             title
-            avatar
           }
         }
       }
     `}
     render={(data) => (
-      <div className="container mx-auto max-w-screen-lg">
+      <body className="container mx-auto">
         <Header />
         <div>{children}</div>
         <Footer siteTitle={data.site.siteMetadata.title} />
-      </div>
+      </body>
     )}
   />
 )
