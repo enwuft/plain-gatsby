@@ -18,7 +18,7 @@ const Image = () => (
     query={graphql`{
   placeholderImage: file(relativePath: {eq: "gatsby-astronaut.png"}) {
     childImageSharp {
-      gatsbyImageData(width: 300, layout: CONSTRAINED)
+      gatsbyImageData(width: 600, layout: CONSTRAINED)
     }
   }
 }

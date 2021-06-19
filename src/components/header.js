@@ -4,10 +4,10 @@ import React from "react"
 import config from "../../gatsby-config"
 
 const Header = () => (
-  <header className="">
+  <header>
     <div>
       <Link to="/">
-        <h1 className="font-sans text-3xl text-gray-700 uppercase font-medium">
+        <h1 className="text-3xl text-gray-600 uppercase font-medium">
           {config.siteMetadata.author}
         </h1>
       </Link>
@@ -17,10 +17,6 @@ const Header = () => (
 
 Header.propTypes = {
   avatar: PropTypes.string,
-}
-
-Header.defaultProps = {
-  avatar: ``,
 }
 
 export default Header

@@ -14,8 +14,8 @@ const IndexPage = ({ data }) => {
   )
   const postsList = (posts) =>
     posts.map((post) => (
-      <div className="flex flex-row justify-between" key={post.node.id}>
-        <div className="text-xl hover:text-red-300">
+      <div className="flex flex-row justify-between space-y-2" key={post.node.id}>
+        <div className="text-base hover:text-red-300">
           <Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link>
         </div>
         <div className="content-center justify-between">{post.node.frontmatter.date}</div>
@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
   const postsListContainer = groupBy(posts, getDateYear)
     .map(({ year, posts }, i) => (
       <div className="pt-8 text-gray-600" key={i}>
-        <h4 className="text-xl code">{year}</h4>
+        <h4 className="text-xl">{year}</h4>
         {postsList(posts)}
       </div>
     ))
@@ -33,9 +33,9 @@ const IndexPage = ({ data }) => {
   return (
     <DefaultLayout>
       <SEO title="Home" />
-      <section className="container mx-auto">
+      <div className="container mx-auto">
         <div>{postsListContainer}</div>
-      </section>
+      </div>
     </DefaultLayout>
   )
 }

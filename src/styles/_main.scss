@@ -6,15 +6,13 @@
 html {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 body {
   font-size: 1rem;
-  line-height: 10px;
+  line-height: 16px;
   font-weight: normal;
   font-style: normal;
   color: #333333;
-  padding: 20px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -22,43 +20,13 @@ body {
     padding: 35px 50px;
   }
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 1rem;
-    line-height: 1.25;
-    color: #313131;
-}
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-
-h4,
-h5,
-h6 {
-  margin-top: 1.1rem;
-  font-size: 1.1rem;
-}
 img {
   max-width: 100%;
+  background-size: cover;
+  align-items: center;
 }
 a {
-  color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #555;
   &.image {
     display: block;
     text-align: center;
@@ -105,19 +73,19 @@ code,
 pre,
 .code,
 .footnotes {
-  font-family: Consolas, monaco, monospace;
+  font-family: monaco, monospace;
+  font-size: medium;
 }
 code {
   color: #f14e32;
   background: #eee;
   padding: 2px 6px;
-  font-size: 13px;
 }
 pre {
   display: block;
   margin-top: 0;
+  font-size: 1.2em;
   margin-bottom: 1rem;
-  font-size: 0.8rem;
   line-height: 1.4;
   white-space: pre;
   overflow-x: auto;
@@ -125,7 +93,6 @@ pre {
   border: 1px solid #ddd;
   padding: 1rem;
   code {
-    font-size: 100%;
     color: inherit;
     background-color: transparent;
     padding: 0;
@@ -177,7 +144,7 @@ article {
   }
   p {
     font-size: 18px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     word-wrap: break-word;
   }
   .footnote {
@@ -236,7 +203,7 @@ article {
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .page-navigation {
   margin: 50px auto 0 auto;

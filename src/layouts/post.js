@@ -13,7 +13,7 @@ const PostTemplate = ({ data, pageContext }) => {
       <SEO title={frontmatter.title} />
       <article className="container mx-auto max-w-screen-lg">
         <div className="flex justify-between pt-10">
-          <h1 className="font-bold uppercase text-gray-600 text-4xl">
+          <h1 className="uppercase text-gray-600 font-medium text-3xl">
             {frontmatter.title}
           </h1>
           <span className="justify-between content-end">
