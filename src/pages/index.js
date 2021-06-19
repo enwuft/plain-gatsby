@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
         className="flex flex-row justify-between space-y-3"
         key={post.node.id}
       >
-        <h4 className="text-lg text-gray-700">
+        <h4 className="text-lg text-gray-900">
           <Link className="hover:text-red-400 delay-100 font-medium uppercase" to={post.node.fields.slug}>
             {post.node.frontmatter.title}
           </Link>
