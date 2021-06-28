@@ -10,11 +10,18 @@ const AboutPage = () => {
       <SEO title="About" />
       <div className="container mx-auto pt-5">
         <p className="font-medium pb-6">DEVELOPMENT</p>
-        <p>Currently development state</p>
-        <Link to="https://ep65.vercel.app/">
+        <div className="">
+          <h2>
+            Currently development state
+          </h2>
+          <Link to="https://ep65.vercel.app/">
             <a>https://ep65.vercel.app/</a>
-         </Link>
-        เเบ่งปันการ CAD
+          </Link>
+        </div>
+        <br />
+        <h2>
+          เเบ่งปันการ CAD
+        </h2>
         <div className="pl-6">
           <Link to="https://vitecad.blogspot.com">
             <a>https://vitecad.blogspot.com/</a>

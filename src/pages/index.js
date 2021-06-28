@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
         className="justify-between content-center items-center space-y-3"
         key={post.node.id}
       >
-        <div className="text-sm lg:text-2xl text-gray-800">
+        <div className="text-sm lg:text-base text-gray-800">
           <Link
             className="hover:text-red-400 delay-100 font-medium uppercase"
             to={post.node.fields.slug}
@@ -26,9 +26,7 @@ const IndexPage = ({ data }) => {
             {post.node.frontmatter.title}
           </Link>
           {/* <p>TOPICS: </p> */}
-          <div className="flex float-right">
-            {post.node.frontmatter.date}
-          </div>
+          <div className="flex float-right">{post.node.frontmatter.date}</div>
         </div>
       </div>
     ))

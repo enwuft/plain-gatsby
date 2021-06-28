@@ -13,11 +13,13 @@ const PostTemplate = ({ data, pageContext }) => {
       <SEO title={frontmatter.title} />
       <article className="container mx-auto">
         <div className="content-center">
-          <div className="flex items-center justify-between">
-            <h1 className="uppercase text-gray-600 font-medium text-3xl">
+          <div className="flex items-center justify-between mt-12 mb-6">
+            <h1 className="font-sans uppercase text-gray-600 font-medium text-3xl underline">
               {frontmatter.title}
             </h1>
-            <span className="bg-gray-100 p-2 text-gray-600">{frontmatter.date}</span>
+            <span className="mb-4 md:mb-0 sm:mb-0 bg-gray-100 p-2 text-gray-600">
+              {frontmatter.date}
+            </span>
           </div>
         </div>
 
