@@ -11,7 +11,7 @@ const Header = () => (
       </div>
     </Link>
     <small className="text-sm lg:text-2xl text-gray-800 font-thin">
-      อีหยังว่ะ
+      ซ้ายจัด ไม่ดัดจริต
     </small>
     <nav>
       <Link to="/about">
