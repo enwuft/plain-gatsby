@@ -12,10 +12,13 @@ const AboutPage = () => {
         <p className="font-medium pb-6">DEVELOPMENT</p>
         <div className="">
           <h2>
-            Currently development state
+            Currently development state (A long time to active)
           </h2>
           <Link to="https://ep65.vercel.app/">
             <a>https://ep65.vercel.app/</a>
+          </Link>
+          <Link to="https://ep65.vercel.app/">
+            <a>https://vecskill-dev.vercel.app/</a>
           </Link>
         </div>
         <br />
