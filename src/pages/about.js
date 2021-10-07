@@ -18,7 +18,7 @@ const AboutPage = () => {
             <a>https://ep65.vercel.app/</a>
           </Link>
          <br />
-          <Link to="https://ep65.vercel.app/">
+          <Link to="https://vecskill-dev.vercel.app/">
             <a>https://vecskill-dev.vercel.app/</a>
           </Link>
         </div>
