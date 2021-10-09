@@ -9,6 +9,7 @@ const AboutPage = () => {
     <DefaultLayout>
       <SEO title="About" />
       <div className="container mx-auto pt-5">
+        <p className="pb-6">just another Script kiddie blog.</p>
         <p className="font-medium pb-6">DEVELOPMENT</p>
         <div className="">
           <h2>
