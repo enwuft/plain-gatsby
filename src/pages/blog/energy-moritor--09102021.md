@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Energy moritor
+title: Energy monitor
 date: 2021-10-09T11:17:07.971Z
 description: สำหรับโปรเจคนี้ ดังนั้น เมื่อต้องการใช้ software opensource
   ่grafana, influxDB อาจจะใช้ cloud service
