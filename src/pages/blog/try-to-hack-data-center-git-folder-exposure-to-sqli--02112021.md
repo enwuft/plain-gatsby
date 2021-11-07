@@ -20,4 +20,4 @@ description: "Try to hack Data Center: .git folder exposure to SQLi"
 
 บทความต่อไปว่าจะเขียน DNS exfiltration SQLi ASP.net web application
 
-#### บทความนี้ไม่ไมีอ้างอิง เพราะมโนเอาล้วนๆ
+#### บทความนี้ไม่มีอ้างอิง เพราะมโนเอาล้วนๆ
