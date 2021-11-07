@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: "Try to hack Data Center: .git folder exposure to SQLi"
+title: "Try to hack Data Center Provider: .git folder exposure to SQLi"
 date: 2021-11-02T05:08:36.683Z
 description: "Try to hack Data Center: .git folder exposure to SQLi"
 ---
-เริ่มบทความเเรกของ Try to hack Data Center .git folder exposure เป้นความพิดพลาดที่ดูเล็กน้อยหรือเป็นความจงใจที่ดูเล็กน้อยมาก ซึ่งการ deploy source code โดยอัปขึ้น server ผ่าน FTP หรือ อาจจะ clone ลงไปใน server เลย ซึ่งความเสี่ยงจะอยู่ที่ .git folder เเละไฟล์ต่างๆที่สำคัญสามารถเข้าถึงได้ผ่านอินเตอร์เน็ต ภาพนี้คือ .git สามารถเข้าถึงได้ผ่านอินเตอร์เน้ต ซึ่ง Git ทุกครั้งที่มีการ commit เเละ push Git จะทำการบันทึกทุกๆการเปลี่ยนเปลงของโค้ดเป็น history จะทำให้ dev ดูความเเตกต่างของโด้ดเเต่จะครั้งที่มีการเปลี่ยนเปลงเเละกลับไปยัง เเต่ละครั้งที่ commit หรือ push **ส่วนนี้ผมไม่มีความเข้าใจอะไรที่จะสามารถอธิบายให้ผู้อ่านเข้าใจได้ ให้หาบทความอ่านต่อไป**
+เริ่มบทความเเรกของ Try to hack Data Center Provider .git folder exposure เป้นความพิดพลาดที่ดูเล็กน้อยหรือเป็นความจงใจที่ดูเล็กน้อยมาก ซึ่งการ deploy source code โดยอัปขึ้น server ผ่าน FTP หรือ อาจจะ clone ลงไปใน server เลย ซึ่งความเสี่ยงจะอยู่ที่ .git folder เเละไฟล์ต่างๆที่สำคัญสามารถเข้าถึงได้ผ่านอินเตอร์เน็ต ภาพนี้คือ .git สามารถเข้าถึงได้ผ่านอินเตอร์เน้ต ซึ่ง Git ทุกครั้งที่มีการ commit เเละ push Git จะทำการบันทึกทุกๆการเปลี่ยนเปลงของโค้ดเป็น history จะทำให้ dev ดูความเเตกต่างของโด้ดเเต่จะครั้งที่มีการเปลี่ยนเปลงเเละกลับไปยัง เเต่ละครั้งที่ commit หรือ push **ส่วนนี้ผมไม่มีความเข้าใจอะไรที่จะสามารถอธิบายให้ผู้อ่านเข้าใจได้ ให้หาบทความอ่านต่อไป**
 
 ![.git folder can access via internet](/img/git-directorylisting.png)
 
