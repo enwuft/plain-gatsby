@@ -18,6 +18,8 @@ description: "Try to hack Data Center: .git folder exposure to SQLi"
 
 สุดทัายเป้น SQLi จะลอง sql language read file system ดูหรือทำอะไรที่มากกว่านั้นก้เเล้วเเต่บุคคลเเล้ว ส่วนตัวผมเเจ้งไปยัง owner
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9k9ollBpX7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 บทความต่อไปว่าจะเขียน DNS exfiltration SQLi ASP.net web application
 
 #### บทความนี้ไม่มีอ้างอิง เพราะมโนเอาล้วนๆ
