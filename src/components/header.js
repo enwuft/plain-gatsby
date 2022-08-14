@@ -4,7 +4,7 @@ import React from "react"
 import config from "../../gatsby-config"
 
 const Header = () => (
-  <header className="mt-6 flex flex-row justify-between items-center uppercase">
+  <header className="lg:-mt-6 flex flex-row justify-between items-center uppercase">
     <Link to="/">
       <div className="text-sm lg:text-2xl text-gray-800 font-medium">
         {config.siteMetadata.author}

@@ -15,14 +15,16 @@ const AboutPage = () => {
           <h2>
             Currently development state (A long time to active)
           </h2>
-          <Link to="https://ep65.vercel.app/">
-            <a>https://ep65.vercel.app/</a>
+        <br />
+          <Link to="http://vecskill.boring9.dev/">
+            <a>http://vecskill.boring9.dev/</a>
           </Link>
-         <br />
-          <Link to="https://vecskill-dev.vercel.app/">
-            <a>https://vecskill-dev.vercel.app/</a>
+          <br />
+          <Link to="https://tdc.boring9.dev/">
+            <a>https://tdc.boring9.dev/</a>
           </Link>
         </div>
+        
         <br />
         <h2>
           เเบ่งปันการ CAD
